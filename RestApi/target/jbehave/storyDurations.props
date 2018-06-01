@@ -1,0 +1,7 @@
+#org.jbehave.core.embedder.StoryManager
+#Sat Jun 02 01:11:09 IST 2018
+Service/State.story=0
+threads=1
+total=2000
+Service/Countries.story=2000
+threadAverage=2000

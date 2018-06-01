@@ -1,0 +1,24 @@
+Sample story
+(CountryService/State.story)
+Narrative:
+In order to communicate effectively to the business some functionality
+As a development team
+I want to use Behaviour-Driven Development
+Scenario: Verify state service call
+Given I setup state service call (PENDING)
+When I request for states (PENDING)
+Then I should receive Haryana in response (NOT PERFORMED)
+@Given("I setup state service call")
+@Pending
+public void givenISetupStateServiceCall() {
+  // PENDING
+}
+
+@When("I request for states")
+@Pending
+public void whenIRequestForStates() {
+  // PENDING
+}
+
+
+
